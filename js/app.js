@@ -42,39 +42,42 @@ changeProfile.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing e
 
 Append this div element to the nameBox div*/
 
- var divElement = document.createElement("div");
- divElement.id = "name7";
- divElement.innerHTML = "Chuck Norris";
- nameBox.appendChild(divElement);
+ var changeName7 = document.createElement("div");
+ changeName7.id = "name7";
+ changeName7.innerHTML = "Chuck Norris";
+ nameBox.appendChild(changeName7);
 
 /*7. Create a div element for Grimmace and give it an id of "alias8". Inside this div element, give it the contents of "The Purple Monster".
 
 Append this div element to the aliasBox div.*/
 
- var divElement = document.createElement("div");
- divElement.id = "alias8";
- divElement.innerHTML = "The Purple Monster";
- aliasBox.appendChild(divElement);
+ var addAlias8 = document.createElement("div");
+ addAlias8.id = "alias8";
+ addAlias8.textContent = "The Purple Monster";
+ aliasBox.appendChild(addAlias8);
 
 
 //Final Boss
 /*8. Create your own profile.*/
 
 
-var divElement9 = document.createElement("div");
-	divElement9.id = "nameBox9";
-	divElement9.innerHTML = "Ella Mae Arana" ;
-	putHere.appendChild(divElement9);
 
-var divElement9 = document.createElement("div");
-	divElement9.id = "alias9";
-	divElement9.innerHTML = "Devleague Noob" ;
-	putHere.appendChild(divElement9);
 
-var divElement9 = document.createElement("div");
-	divElement9.id = "bio";
-	divElement9.innerHTML = "Very Pregnant" ;
-	putHere.appendChild(divElement9);
+
+var addName9 = document.createElement("div");
+	addName9.id = "nameBox9";
+	addName9.innerHTML = "Ella Mae Arana" ;
+	putHere.appendChild(addName9);
+
+var addAlias9 = document.createElement("div");
+	addAlias9.id = "alias9";
+	addAlias9.innerHTML = "Devleague Noob" ;
+	putHere.appendChild(addAlias9);
+
+var addDesc9 = document.createElement("div");
+	addDesc9.id = "bio";
+	addDesc9.innerHTML = "Very Pregnant" ;
+	putHere.appendChild(addDesc9);
 
 
 
