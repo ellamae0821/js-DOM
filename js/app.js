@@ -60,24 +60,41 @@ Append this div element to the aliasBox div.*/
 //Final Boss
 /*8. Create your own profile.*/
 
-
-
-
+ 
+var addDetails9 = document.getElementsByClassName("block3 col-sm-4")[2];
 
 var addName9 = document.createElement("div");
-	addName9.id = "nameBox9";
-	addName9.innerHTML = "Ella Mae Arana" ;
-	putHere.appendChild(addName9);
+	addName9.id = "name9";
+	addName9.innerHTML = "Ella Mae Arana";
+	addDetails9.appendChild(addName9);
 
-var addAlias9 = document.createElement("div");
-	addAlias9.id = "alias9";
-	addAlias9.innerHTML = "Devleague Noob" ;
-	putHere.appendChild(addAlias9);
+var addPosition9 = document.createElement("div");
+	addPosition9.id = "position9";
+	addPosition9.innerHTML = "Devleague Noob";
+	addDetails9.appendChild(addPosition9);
 
-var addDesc9 = document.createElement("div");
-	addDesc9.id = "bio";
-	addDesc9.innerHTML = "Very Pregnant" ;
-	putHere.appendChild(addDesc9);
+var addBio9 = document.createElement("div");
+	addBio9.id = "bio9";
+	addBio9.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi aperiam numquam, optio sunt, excepturi unde ea odio, hic voluptas ullam vero saepe recusandae deleniti assumenda. Fuga quasi culpa tenetur voluptates!";
+	addDetails9.appendChild(addBio9);
+
+
+
+
+// var addName9 = document.createElement("div");
+// 	addName9.id = "nameBox9";
+// 	addName9.innerHTML = "Ella Mae Arana" ;
+// 	putHere.appendChild(addName9);
+
+// var addAlias9 = document.createElement("div");
+// 	addAlias9.id = "alias9";
+// 	addAlias9.innerHTML = "Devleague Noob" ;
+// 	putHere.appendChild(addAlias9);
+
+// var addDesc9 = document.createElement("div");
+// 	addDesc9.id = "bio";
+// 	addDesc9.innerHTML = "Very Pregnant" ;
+// 	putHere.appendChild(addDesc9);
 
 
 
